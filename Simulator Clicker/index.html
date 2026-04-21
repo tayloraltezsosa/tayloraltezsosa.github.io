@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<header>
+			<title>Simulator Clicker</title>
+			<h1 id="counter"><span style="color:blue">Usted lleva 0 Clicks</h1>
+			<button onclick="Click()">Click me</button>
+	</header>
+	<script>
+		var clicks = 0;
+		function Click()
+		{
+			clicks += 1;
+			document.getElementById("counter").innerHTML = " Tu tienes " + clicks + " clicks! "
+		}
+	</script>
+<body style="background:url('./images.jpg')"width="450"/>
+    
+</body>
+</html>
